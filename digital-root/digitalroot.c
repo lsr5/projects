@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-
+/* this is unfinished and possibly will stay as such */
 
 int countNumbers(int num) 
 {
