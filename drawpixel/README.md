@@ -1,6 +1,6 @@
-# how to compile
+# how to run
 
-to compile, execute these this command:
+to compile, execute this command:
 ```
 gcc -o drawpixel drawpixel.c `sd2-config --cflags --libs`
 ```
