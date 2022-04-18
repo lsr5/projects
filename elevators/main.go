@@ -16,8 +16,8 @@ func main() {
     weights := [n]int{4, 8, 6, 1}
 
     var rides int
-    sum := 0
-
+    var sum int
+    
     if len(weights) == n {
 
         // set sum to sum of weights
@@ -29,7 +29,7 @@ func main() {
         fmt.Println("Error.")
     }
 
-    fmt.Println("total weights: ", sum)
+    fmt.Println("total weight: ", sum)
 
     res := float64(sum) / float64(x)
     quotient := int(res)
