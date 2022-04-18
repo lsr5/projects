@@ -44,5 +44,4 @@ func main() {
 
     fmt.Println("rides needed: ", rides)
 
-
 }
